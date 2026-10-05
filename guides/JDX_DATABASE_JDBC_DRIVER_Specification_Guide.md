@@ -2,9 +2,11 @@ Copyright (c) 2025 Software Tree
 
 # JDX_DATABASE and JDBC_DRIVER Configuration in the ORM specification (.jdx) file
 
-This guide provides examples of how to specify the `JDX_DATABASE` and `JDBC_DRIVER` statements in the Object Relational Mapping (ORM) specification `.jdx` file for different types of databases. Please make sure to substitute the placeholders (e.g., `<DatabaseName>`, `<UserName>`, etc.) with your actual database configurations.
+This guide provides examples of how to specify the `JDX_DATABASE` and `JDBC_DRIVER` statements in the Object Relational Mapping (ORM) specification `.jdx` file for some commonly used databases. Please make sure to substitute the placeholders (e.g., `<DatabaseName>`, `<UserName>`, etc.) with your actual database configurations.
 
 These specifications go at the top of the mapping file before declaring the ORM specifications for the domain model object classes.
+
+> **Note:** The databases covered here (SQLite, MySQL, PostgreSQL, Microsoft SQL Server and Oracle) are only examples. JDX supports many other databases as well, such as IBM Db2, SAP HANA and Snowflake, and can work with other JDBC-compliant data sources through the `GENERIC` database type. For a database not shown here, follow the same pattern: use the JDBC URL format and driver class documented by your database or JDBC driver vendor, and set `JDX_DBTYPE` to the value for your database.
 
 ---
 
@@ -75,7 +77,7 @@ Use this address as `<DatabaseServer_IP_Address>` for local databases.
 
 ## JDX Configuration Examples
 
-Below are examples of how to specify `JDX_DATABASE` and `JDBC_DRIVER` for different databases.
+Below are examples of how to specify `JDX_DATABASE` and `JDBC_DRIVER` for a few commonly used databases. Other databases supported by JDX are configured the same way.
 
 ---
 
@@ -172,4 +174,4 @@ JDBC_DRIVER oracle.jdbc.driver.OracleDriver
 
 ---
 
-By following this guide, you should be able to set up the appropriate JDBC connection strings for your database setup.
+By following these examples, you should be able to set up the appropriate JDBC connection strings for your database, including databases not listed in this guide.

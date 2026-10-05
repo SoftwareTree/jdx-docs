@@ -8,7 +8,7 @@ Gilhari sample projects and other Software Tree repositories link to the guides 
 
 | Guide | Description |
 |---|---|
-| [JDX_DATABASE and JDBC_DRIVER Specification Guide](guides/JDX_DATABASE_JDBC_DRIVER_Specification_Guide.md) | How to specify the `JDX_DATABASE` and `JDBC_DRIVER` statements in an ORM specification (`.jdx`) file for SQLite, MySQL, PostgreSQL, Microsoft SQL Server and Oracle, including connection URLs for databases accessed from inside a Docker container |
+| [JDX_DATABASE and JDBC_DRIVER Specification Guide](guides/JDX_DATABASE_JDBC_DRIVER_Specification_Guide.md) | How to specify the `JDX_DATABASE` and `JDBC_DRIVER` statements in an ORM specification (`.jdx`) file, with examples for SQLite, MySQL, PostgreSQL, Microsoft SQL Server and Oracle (JDX supports many other databases too), including connection URLs for databases accessed from inside a Docker container |
 
 ## Related
 
